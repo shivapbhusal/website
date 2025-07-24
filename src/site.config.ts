@@ -25,9 +25,9 @@ export const siteConfig: SiteConfig = {
 		- The link value found in src/components/layout/Header.astro L:35
 		- In the footer found in src/components/layout/Footer.astro L:12
 	*/
-	title: "Astro Cactus",
+	title: "InkLedge",
 	// ! Please remember to replace the following site property with your own domain, used in astro.config.ts
-	url: "https://astro-cactus.chriswilliams.dev/",
+	url: "https://inkledge.com/",
 };
 
 // Used to generate links in both the Header & Footer.
@@ -43,15 +43,7 @@ export const menuLinks: { path: string; title: string }[] = [
 	{
 		path: "/posts/",
 		title: "Blog",
-	},
-	{
-		path: "/notes/",
-		title: "Notes",
-	},
-	{
-		path: "/notes/",
-		title: "Notes",
-	},
+	}
 ];
 
 // https://expressive-code.com/reference/configuration/
@@ -60,7 +52,7 @@ export const expressiveCodeOptions: AstroExpressiveCodeOptions = {
 		borderRadius: "4px",
 		codeFontFamily:
 			'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace',
-		codeFontSize: "0.875rem",
+		codeFontSize: "2.9rem",
 		codeLineHeight: "1.7142857rem",
 		codePaddingInline: "1rem",
 		frames: {
