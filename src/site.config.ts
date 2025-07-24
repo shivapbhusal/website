@@ -48,6 +48,10 @@ export const menuLinks: { path: string; title: string }[] = [
 		path: "/notes/",
 		title: "Notes",
 	},
+	{
+		path: "/notes/",
+		title: "Notes",
+	},
 ];
 
 // https://expressive-code.com/reference/configuration/
@@ -76,6 +80,6 @@ export const expressiveCodeOptions: AstroExpressiveCodeOptions = {
 		return `[data-theme="${theme.name}"]`;
 	},
 	// One dark, one light theme => https://expressive-code.com/guides/themes/#available-themes
-	themes: ["dracula", "github-light"],
+	themes: ["everforest-light", "rose-pine-dawn"],
 	useThemedScrollbars: false,
 };
